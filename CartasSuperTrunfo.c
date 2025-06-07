@@ -120,7 +120,7 @@ int main() {
     printf("PIB: R$ %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
     printf("Densidade Populacional Hab/Km: %.2f\n", densidadePopulacional2);
-    printf("Pib Per Capita: %.2f\n", pibPerCapita2);a
+    printf("Pib Per Capita: %.2f\n", pibPerCapita2);
     
     printf("\n"); // Linha em branco para separar as comparações
 
@@ -129,7 +129,7 @@ int main() {
     printf("Área: Carta 1 venceu (%d)\n", area1 > area2);
     printf("PIB: Carta 1 venceu (%d)\n", pib1 > pib2);
     printf("Pontos Turísticos: Carta 1 venceu (%d)\n", pontosTuristicos1 > pontosTuristicos2);
-    printf("Densidade Populacional: Carta 1 venceu (%d)\n", densidadePopulacional1 > densidadePopulacional2);
+    printf("Densidade Populacional: Carta 1 venceu (%d)\n", densidadePopulacional1 < densidadePopulacional2); // Menor Vence
     printf("PIB per Capita: Carta 1 venceu (%d)\n", pibPerCapita1 > pibPerCapita2);
     printf("Super Poder: Carta 1 venceu (%d)\n", superPoder1 > superPoder2);
 
